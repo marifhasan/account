@@ -1,0 +1,40 @@
+#image - polymorphic
+* product_id
+* brand_id
+* category_id
+* color_id
+* path
+
+#brand - default (Original)
+* name
+
+#category
+* brand_id
+* name
+*
+
+#size
+* category_id
+* name
+* detail
+
+#color
+* name
+* code
+
+#product detail
+* category_id
+* brand_id
+* code
+* name
+* detail
+* features
+* description
+* size
+* color
+* price
+* discounted_price
+* rating
+*
+
+#
